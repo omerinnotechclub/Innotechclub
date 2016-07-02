@@ -1,9 +1,9 @@
 <?php
-
+session_start();
+//error_reporting(E_ALL);
+//ini_set('display_errors', 1);
 error_reporting(0);
-
 // date_default_timezone_set('America/New_York');
-
 include_once("includes/magic.php");
 include_once("../config.php");
 include_once("includes/path.php");

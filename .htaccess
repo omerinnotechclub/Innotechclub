@@ -3,7 +3,7 @@ RewriteEngine On
 # If you install pulse in a sub-folder, some hosts require 
 # RewriteBase to be set to that sub-folder name (below)
 
-# RewriteBase /subfolder/
+RewriteBase /vr-fashion/pulsepro
 
 
 ############################################################

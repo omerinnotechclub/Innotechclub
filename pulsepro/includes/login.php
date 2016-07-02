@@ -126,10 +126,10 @@ if (($max_session_time > 0
 		$_SESSION["mpass_attempts"]++;
 	}
 	
-	if($max_attempts >1 && $_SESSION["mpass_attempts"] >= $max_attempts) {
+	/*if($max_attempts >1 && $_SESSION["mpass_attempts"] >= $max_attempts) {
 	    
 		exit("Too many login failures.");
-	}
+	}*/
 
 	$_SESSION["mpass_session_expires"] = "";
 ?>

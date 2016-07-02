@@ -1,5 +1,5 @@
 <?php    
-$pulse_dir = "pulsepro";
+$pulse_dir = "vr-fashion/pulsepro";
 $pulse_pass = "demo";
 $height = "110";
 $width = "110";
